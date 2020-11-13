@@ -21,4 +21,4 @@ while row <= 10:
     # 重置col计数器
     col = 1
     # row计数器+1
-    row += 1
+    row += 1 
