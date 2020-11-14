@@ -32,3 +32,6 @@ print(name_list)
 # name_list.clear()会直接清空列表
 name_list.clear()
 print(name_list)
+# del 会直接删除从内存中变量
+# del name_list[X]也可以删除列表中的单个索引
+del name_list
