@@ -6,7 +6,7 @@ while row <= 9:
     #列数循环
     while col <= row:
         # 打印例子2*3=6（对齐制表符）,取消换行
-        print("%d*%d=%d\t" % (col, row, row * col), end="")
+        print("%d*%d=%d" % (col, row, row * col), end="\t")
         # 列计数器
         col += 1
     #打印换行
@@ -15,3 +15,4 @@ while row <= 9:
     col = 1
     #行计数器
     row += 1
+0
