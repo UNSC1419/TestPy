@@ -2,6 +2,12 @@
 # 所有IS开头的方法都是判断类型的方法
 #
 # .isspace() 如果列表中只包含空格（或者空白字符如/t /r /n）则返回True
+mum_str = "\u00b2"
+print(mum_str)
+print(mum_str.isdecimal())
+print(mum_str.isdigit())
+print(mum_str.isnumeric())
+
 temp_list = " "
 print(temp_list.isspace())
 
