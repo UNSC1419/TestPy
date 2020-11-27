@@ -1,7 +1,7 @@
 #
 # 所有IS开头的方法都是判断类型的方法
 #
-# .isspace() 如果列表中只包含空格则返回True
+# .isspace() 如果列表中只包含空格（或者空白字符如/t /r /n）则返回True
 temp_list = " "
 print(temp_list.isspace())
 
