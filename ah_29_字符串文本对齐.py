@@ -15,3 +15,6 @@ for p in pom:
 for p in pom:
     # 使用rjust来向左对齐，可以指定宽度和填充字符，指定填充负责\u3000是中文全角空格，不指定默认是英文空格
     print("|%s|" % p.rjust(10, "\u3000"))
+    # 使用XXX.strip可以去掉字符串两边的空格，lstrip和rstrip可以去左右两边的
+    temp = p.rjust(10, "\u3000")
+    print(temp.strip())
